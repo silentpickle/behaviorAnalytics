@@ -1,0 +1,6 @@
+Analytics plugin.  The general idea is that we have a behavior reporter, and this behavior
+reporter can have any number of plugins, for simple printing of behavior, google analytics, mparticle, 
+omniture, etc. etc.
+
+The plugin is going to follow a certain form of having methods, and the behavior reporter is
+going to call them appropriately.   As a reference, use the printBehaviorPlugin.brs
